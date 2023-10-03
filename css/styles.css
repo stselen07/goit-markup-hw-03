@@ -143,3 +143,15 @@ color: #404bbf;
 img {
     display: block;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
