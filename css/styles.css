@@ -26,6 +26,7 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+    margin: 76px;
 }
 .logo-studio {
     color: #2e2f42;
@@ -148,7 +149,7 @@ img {
 }
 .navigation {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .container {
     width: 1158px;
