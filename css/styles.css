@@ -160,4 +160,9 @@ img {
 }
 .body-navigation {
     gap: 40px;
+    display: flex;
+}
+.body-adress {
+    display: flex;
+    gap: 40px;
 }
