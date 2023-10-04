@@ -118,6 +118,8 @@ color: #404bbf;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .section-three-desc {
     background-color: #F4F4FD;   
