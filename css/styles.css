@@ -147,7 +147,7 @@ color: #404bbf;
 }
 .third-list-class {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4));
+    width: 264px;
     border-radius: 0px 0px 4px 4px;
 }
 .footer-desc {
@@ -239,5 +239,5 @@ img {
     display: block;
 }
 .ways-item-li {
-    flex-basis: calc((100% - 72px) / 4));
+    width: 264px;
 }
