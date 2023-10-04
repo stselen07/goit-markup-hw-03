@@ -12,7 +12,12 @@
     --c-white-backgound: #FFFFFF;
     --c-modal-background: #FCFCFC;
 }
-body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body { 
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -83,12 +88,15 @@ color: #404bbf;
      color: #ffffff;
      cursor: pointer;
      min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    text-align: center;
-    padding-block: 1px;
-    padding-inline: 6px;
+     height: 56px;
+     border: none;
+     border-radius: 4px;
+     text-align: center;
+     padding-block: 1px;
+     padding-inline: 6px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 50px;
 }
 .order-service-button:hover {
    background-color: #404BBF;
@@ -109,6 +117,7 @@ color: #404bbf;
     color: #434455;
     font-size: 16px;
     text-align: center;
+
 }
 .sub-header {
     font-weight: 500;
@@ -134,9 +143,12 @@ color: #404bbf;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    width: calc((100% - 72px) / 4);
 }
 .third-list-class {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .footer-desc {
     background-color: #2e2f42;
