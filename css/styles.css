@@ -189,6 +189,7 @@ color: #404bbf;
 }
 .footer-desc {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .main-logo {
     font-family: 'Raleway', sans-serif;
@@ -199,6 +200,8 @@ color: #404bbf;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-second-footer {
     color: #f4f4fd; 
@@ -207,6 +210,7 @@ color: #404bbf;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 img {
     display: block;
