@@ -200,8 +200,8 @@ color: #404bbf;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .logo-second-footer {
     color: #f4f4fd; 
@@ -211,6 +211,7 @@ color: #404bbf;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    display: inline-block;
 }
 img {
     display: block;
@@ -298,7 +299,7 @@ img {
     row-gap: 48px;
 }
 .portfolio-item {
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-text {
     padding: 32px 16px;
