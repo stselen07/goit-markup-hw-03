@@ -55,7 +55,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
-    margin: 76px;
+    margin-right: 76px;
 }
 .logo-studio {
     color: #2e2f42;
@@ -100,6 +100,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2E2F42;
     max-width: 496px;
+    margin: 0 auto;
 }
 .section-decoration {
     background-color: #2E2F42;
@@ -146,8 +147,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
-    text-align: center;
-
 }
 .sub-header {
     font-weight: 500;
@@ -156,11 +155,19 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
     align-items: center;
+}
+.sub-header-three {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+     margin-bottom: 8px;
+     border-radius: 0px 0px 4px 4px;
+     margin-bottom: 8px;
 }
 .section-three-desc {
     background-color: #F4F4FD;   
@@ -175,7 +182,6 @@ color: #404bbf;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    width: calc((100% - 72px) / 4);
 }
 .third-list-class {
     background-color: #FFFFFF;
