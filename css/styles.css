@@ -149,7 +149,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
-    text-align: center;
 }
 .sub-header {
     font-weight: 500;
@@ -160,8 +159,8 @@ color: #404bbf;
     margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
-    align-items: center;
-    text-align: center;
+    align-items: justify;
+    text-align: justify;
 }
 .sub-header-three {
      font-weight: 500;
@@ -172,7 +171,8 @@ color: #404bbf;
      margin-bottom: 8px;
      border-radius: 0px 0px 4px 4px;
      margin-bottom: 8px;
-     text-align: justify;
+     text-align: center;
+     align-items: center;
 }
 .section-three-desc {
     background-color: #F4F4FD;   
@@ -183,7 +183,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
-    text-align: justify;
+    text-align: center;
 }
 .content-desc {
     font-family: 'Roboto', sans-serif;
