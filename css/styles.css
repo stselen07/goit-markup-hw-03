@@ -149,6 +149,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
+    text-align: justify;
 }
 .sub-header {
     font-weight: 500;
@@ -160,7 +161,7 @@ color: #404bbf;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
     align-items: justify;
-    text-align: justify;
+    text-align: center;
 }
 .sub-header-three {
      font-weight: 500;
